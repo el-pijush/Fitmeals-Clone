@@ -1,0 +1,70 @@
+.logosDiv {
+    width: 70%;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    background-color: rgb(243, 245, 237);
+  }
+  .logosDiv > div {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 10%;
+    height: 70%;
+    background-color: rgb(142, 192, 56);
+    position: relative;
+    transition: all 0.3s linear;
+  }
+  .logosDiv > div:hover {
+    transform: rotateY(180deg);
+  }
+  .logosDiv > div i {
+    /* border: 1px solid red; */
+    font-size: 60px;
+    text-align: center;
+    margin-top: 22px;
+    color: white;
+    /* position: relative;
+      transition: all 1s linear; */
+  }
+  
+  .desc {
+    width: 83%;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 245, 237);
+  }
+  .descH2 {
+    color: #292d35;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+  }
+  
+  .descp {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #292d35;
+    line-height: 30px;
+  }
+  .desc > div {
+    width: 24%;
+    background-color: rgb(243, 245, 237);
+    /* border: 1px solid rebeccapurple; */
+  }
+  .gray {
+    background-color: rgb(243, 245, 237);
+  }
+
+  #container2 > h6{
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    font-size: 40px;
+    margin: auto;
+    color: #98c64a;
+  }

@@ -1,0 +1,59 @@
+.slide-container {
+  direction: ltr;
+  width: 100%;
+  margin: auto;
+  margin-top: 150px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 600px;
+}
+/* .react-slideshow-container .nav[data-type="prev"] span {
+  margin-left: 15px;
+  border-right: none;
+  border-top: none;
+}
+.react-slideshow-container .nav[data-type="next"] span {
+  margin-right: 0px;
+  border-left: none;
+  border-bottom: none;
+} */
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #77777786;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+.each-fade {
+  display: flex;
+}
+.each-fade .image-container {
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.each-fade .image-container img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 2;
+}
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+/* .react-slideshow-container + div.indicators > div:last-of-type {
+  margin-right: 10px;
+} */

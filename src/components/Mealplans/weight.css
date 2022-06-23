@@ -1,0 +1,317 @@
+#top{
+    margin-top: 150px;
+}
+#background{
+    width:100%;
+    margin: auto;
+    height:355px;
+    position: relative;
+    background-image:url('https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg');
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+    /* border: 1px solid red; */
+}
+.img_over{
+    /* backdrop-filter: blur(5px); */
+    position: absolute;
+   top: 35%;
+   font-size: 48px;
+ 
+   left: 10%;
+   color: white;
+}
+.img_over1{
+    position: absolute;
+    top:40%;
+    font-size: 50px;
+    left:43%;
+    color: white;
+}
+#Cont{
+    display: flex;
+    position: relative;
+    /* left: -174.5px; */
+    box-sizing: border-box;
+    width: 100%;
+    height: inherit;
+    padding-left: 101.5px;
+    padding-right: 101.5px;
+    background-color: #F4F2E9;
+    justify-content: space-between;
+}
+#left_cont{
+    margin-top: 30px;
+    width:75%;
+    height:inherit;
+    /* border: 1px solid black; */
+}
+#left_cont1{
+    width:100%;
+    height: 350px;
+    /* border:1px solid red; */
+    text-align: left;
+}
+#left_cont11{
+    width:100%;
+    height: 220px;
+    /* border:1px solid red; */
+    text-align: left;
+}
+#left_cont11>h3{
+    color:#292d35;
+    /* color: black; */
+    font-size: 18px;
+    font-weight: 580;
+    line-height: 32px;
+    font-style: normal;
+    font-family: "Open Sans",sans-serif;
+}
+#left_cont1>h3{
+    color:#292d35;
+    /* color: black; */
+    font-size: 18px;
+    font-weight: 580;
+    line-height: 32px;
+    font-style: normal;
+    font-family: "Open Sans",sans-serif;
+}
+.list{
+    list-style: none;
+    margin: 0px auto 15px;
+    padding: 0 0 0 0;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.list>li>i{
+    color: #8ec038;
+}
+.list>li>span{
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #292d35;
+}
+.order_btn>button{
+    margin-top: 15px;
+    padding: 20px 44px;
+    line-height: 1.4em;
+    min-width: 200px;
+    font-size: 16px;
+    background-color: #da2424;
+    border-color: #da2424;
+    border-radius: 36px;
+    color: #ffff;
+    font-weight: 700;
+    font-family: "Fira Sans", serif;
+}
+.order_btn>button:hover{
+    background-color: #292d35;
+    border-color: #292d35;
+}
+#left_cont2{
+    margin-top: 5px;
+    width:100%;
+    height: 80px;
+    text-align: left;
+    /* border: 1px solid green; */
+}
+#right_cont{
+    margin-top: 30px;
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid black */
+}
+#right_cont1{
+    /* margin-top: 30px; */
+    width:90%;
+    margin: auto;
+    height: 120px;
+    /* border:1px solid red; */
+    font-family: 'Sacramento';
+}
+#right_cont2{
+    width:90%;
+    margin:auto;
+    margin-top:-20px;
+    height:auto;
+
+    border: 1px solid black;
+}
+#slide_img{
+    height:250px;
+    width: 100%;
+    /* margin-top:-180px; */
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 20px;
+    text-align: center;
+    background: #e91e63;
+    color: #fff;
+    border-radius: 3px;
+    height: 45px;
+    border:none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    width:180px;
+}
+.btn:hover{
+    background-color: #292d35;
+    color: #F4F2E9;
+}
+#right_cont1>h6{
+    margin-top: -0.5px;
+    margin-top: 10px;
+    color:#292d35;
+    font-family: Sacramento, serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+#right_cont1>h6>span{
+    margin-top: -0.5px;
+    margin-top: 10px;
+    color:#292d35;
+    font-family: Sacramento, serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+#how_work{
+    padding-top: 40px;
+    margin: auto;
+}
+#how_work>h2{
+    color: #8ec038;
+    font-family: Sacramento, serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+#flex_4{
+    display: flex;
+    margin-top: 10px;
+    width:85%;
+    height: 250px;
+    gap:90px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.flex_4child{
+    margin-top:15px;
+    width: 258px;
+    height: 253px;
+    /* border: 1px solid red; */
+}
+.flex_4child1{
+    margin: auto;
+    margin-top: 10px;
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #8ec038;
+    position: relative;
+    transition: all 0.3s linear;
+}
+.flex_4child3>p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    Color:#292d35;
+    line-height: 28px;
+}
+.choose_div>h1{
+    margin-top: 130px;
+    font-family: "Fira Sans", serif;
+    font-size: 48px;
+    font-weight: 700;
+    color:#292d35;
+    line-height: 62px;
+    font-style: normal;
+}
+.choose_div>h1>span{
+    color: white;
+}
+.flex_4child2>h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-size: 18px;
+    Color:#292d35;
+}
+#place_order{
+    width:100%;
+    height: 550px;
+    margin-top: 40px;
+    background-color: #8ec038;
+    display: flex;
+}
+#place_order>div:nth-child(1){
+    width:19%;
+    margin-left: 25px;
+    margin-top: 30px;
+    height: 85%;
+    border-radius: 15px;
+    /* border: 1px solid #000000; */
+}
+.plan_red{
+    margin-top: 80px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+h4>span{
+    color: red;
+}
+.place_orderdiv{
+    width: 21.5%;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 90%;
+    border-radius: 25px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: white;
+}
+#Fit{
+    width:80%;
+    margin:auto;
+    margin-top: 40px;
+    height: 250px;
+    border: 1px solid #8ec038;
+    border-radius: 25px;
+}
+i{
+    margin-top: 25px;
+    margin-left: 2px;
+}
+#colo{
+    color: #8ec038;
+}
+#Fit>h4{ 
+    font-family:"Fira Sans", serif;
+    font-weight:700;
+    font-size: 30px;
+    Color:#292d35;
+}
+#flex_4child1:hover{
+    /* transition: 0.9s; */
+    transform: rotateY(180deg);
+}
+#grid{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+    /* height: 500px; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,250px);
+    gap:9px
+}
+/* #grid>div{
+    border:1px solid red;
+} */
+#grid>div>img{
+    height: 100%;
+    width:100%;
+}

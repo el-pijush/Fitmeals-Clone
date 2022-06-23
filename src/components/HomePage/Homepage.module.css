@@ -1,0 +1,875 @@
+/* .imgDiv{
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+} */
+/* .imgDiv{
+    width: 100%;
+    height: 680px;
+ 
+} */
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+.div2 {
+  width: 90%;
+  height: 470px;
+  margin: auto;
+  /* border: 1px solid red;   */
+  display: flex;
+  justify-content: space-between;
+  padding: 79px;
+}
+
+.div2 > div:nth-child(1) {
+  width: 48%;
+}
+.div2 > div:nth-child(2) {
+  width: 25%;
+}
+.div2 > div:nth-child(3) {
+  width: 20%;
+}
+.div2 > div p {
+  font-family: "Open Sans", sans-serif;
+  color: #292d35;
+  line-height: 30px;
+}
+
+.img2 {
+  width: 100%;
+}
+.para {
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.para2 {
+  display: flex;
+  margin-top: 10px;
+}
+.para2 p {
+  font-family: "Open Sans", sans-serif;
+  color: #292d35;
+}
+.para2 i {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: rgb(142, 192, 56);
+}
+.para2 > p {
+  text-align: left;
+  line-height: 30px;
+}
+.fitMealpara {
+  font-family: "Open Sans", sans-serif;
+  color: #292d35;
+  width: 70%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.readmore {
+  font-size: 18px;
+  width: 200px;
+  margin-left: -1020px;
+  padding: 20px;
+  border-radius: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-top: -20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.readmore:hover {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.div3 {
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgb(243, 245, 237);
+  padding: 79px;
+}
+.logosDiv {
+  width: 70%;
+  height: 150px;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+  background-color: rgb(243, 245, 237);
+}
+.logosDiv > div {
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 10%;
+  height: 70%;
+  background-color: rgb(142, 192, 56);
+  position: relative;
+  transition: all 0.3s linear;
+}
+.logosDiv > div:hover {
+  transform: rotateY(180deg);
+}
+.logosDiv > div i {
+  /* border: 1px solid red; */
+  font-size: 60px;
+  text-align: center;
+  margin-top: 22px;
+  color: white;
+  /* position: relative;
+    transition: all 1s linear; */
+}
+
+.desc {
+  width: 83%;
+  margin: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 245, 237);
+}
+.descH2 {
+  color: #292d35;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+
+.descp {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #292d35;
+  line-height: 30px;
+}
+.desc > div {
+  width: 24%;
+  background-color: rgb(243, 245, 237);
+  /* border: 1px solid rebeccapurple; */
+}
+.gray {
+  background-color: rgb(243, 245, 237);
+}
+.wheel {
+  width: 900px;
+  height: 900px;
+  /* border: 1px solid yellow; */
+  margin: auto;
+  margin-top: 50px;
+}
+.wheelImg {
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+}
+
+.wheelImg:hover {
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  margin-top: 450px;
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  animation: myfirst 10s infinite linear;
+}
+@keyframes myfirst {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.greenDiv {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 150px;
+  /* border: 1px solid black; */
+  background-color: #8ec038;
+  background-image: url(https://www.fitmeals.co.in/wp-content/uploads/2019/10/veg_pattern_01.png?id=10839),
+    url(https://www.fitmeals.co.in/wp-content/uploads/2019/10/nutrion-left.png),
+    url(https://www.fitmeals.co.in/wp-content/uploads/2019/10/nutrion-right.png);
+  background-size: fill, fill, fill;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-position: center, -5%, 95%;
+  margin-top: -650px;
+  margin-bottom: 0px;
+  position: absolute;
+}
+.innerGreenDiv {
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 150px;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  box-shadow: rgb(217, 223, 215) 0px 5px, rgb(199, 221, 135) 0px 10px;
+}
+.bttns {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  color: #292d35;
+  font-family: "Fira Sans", sans-serif;
+}
+.bttns:hover {
+  /* border: 1px solid red; */
+  border-radius: 30px;
+  color: rgb(142, 192, 56);
+  cursor: pointer;
+  border: 2px solid rgb(142, 192, 56);
+  border-radius: 29px;
+}
+.h1Fonts {
+  color: #292d35;
+}
+.innerGreenDiv2 {
+  width: 90%;
+  height: 350px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.innerGreenDiv2 > div {
+  width: 48%;
+  height: 100%;
+  /* border: 1px solid red;  */
+}
+
+.greenDivImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.viewPlanBttn {
+  width: 180px;
+  height: 60px;
+  font-size: 16px;
+  margin-left: -350px;
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.viewPlanBttn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background: #da2424;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.viewPlanBttn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #292929;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.viewPlanBttn:hover,
+.viewPlanBttn:focus,
+.viewPlanBttn:active {
+  color: white;
+  background-color: #da2424;
+}
+.viewPlanBttn:hover:before,
+.viewPlanBttn:focus:before,
+.viewPlanBttn:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.viewPlanBttn:hover:after {
+  background: #da2424;
+}
+
+.overlayDiv {
+  width: 100%;
+  height: 550px;
+  margin-top: 450px;
+  background-color: #fff;
+  position: relative;
+  background-image: url(https://www.fitmeals.co.in/wp-content/uploads/2018/02/trial_parallax.jpg?id=10779);
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(43, 43, 43, 0.445);
+}
+
+.overlayDiv .overlayContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  color: white;
+}
+.content h1 {
+  width: 50%;
+  font-size: 50px;
+  margin: auto;
+  margin-top: -70px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+
+.overlayDiv svg {
+  width: 100%;
+  margin-bottom: -910px;
+}
+.orderbttn {
+  width: 180px;
+  height: 60px;
+  margin-top: 30px;
+  font-size: 17px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.orderbttn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background: #da2424;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.orderbttn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #8ec038;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.orderbttn:hover,
+.orderbttn:focus,
+.orderbttn:active {
+  color: white;
+  background-color: #da2424;
+}
+.orderbttn:hover:before,
+.orderbttn:focus:before,
+.orderbttn:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.orderbttn:hover:after {
+  background: #da2424;
+}
+.dietplans {
+  width: 80%;
+  margin: auto;
+  margin-top: 90px;
+  /* height: 500px; */
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 120px;
+  /* border: 1px solid black; */
+}
+.para {
+  font-size: 40px;
+  color: rgb(142, 192, 56);
+  font-family: "Sacramento", serif;
+}
+.h2homepage {
+  color: rgb(142, 192, 56);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text {
+  width: 23%;
+  text-align: left;
+  margin-top: 50px;
+}
+.dietplanimg {
+  width: 30%;
+  margin-top: 60px;
+}
+.learnmore {
+  width: 180px;
+  height: 60px;
+  margin-top: 30px;
+  font-size: 17px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.learnmore {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background: #da2424;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.learnmore:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #8ec038;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.learnmore:hover,
+.learnmore:focus,
+.learnmore:active {
+  color: white;
+  background-color: #da2424;
+}
+.learnmore:hover:before,
+.learnmore:focus:before,
+.learnmore:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.learnmore:hover:after {
+  background: #da2424;
+}
+
+.diariesSliding {
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  background-color: white;
+  /* overflow: hidden; */
+  display: flex;
+  border: 3px solid black;
+}
+.diariesSliding > div {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 350px;
+}
+
+.imgBox img {
+  width: 30%;
+  height: 350px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.clientPara {
+  background-color: white;
+}
+
+.logoDiv i {
+  font-size: 50px;
+  color: rgb(142, 192, 56);
+}
+.testimonial {
+  /* margin-top: -45px; */
+  height: 800px;
+  margin-top: -65px;
+  background-color: #f3f5ed;
+  border: 1px;
+}
+.sliderContain {
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid red; */
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-start; */
+}
+.testimonialinfo {
+  text-align: center;
+  height: fit-content;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+.testimonialinfo > img {
+  /* border: 3px solid blue; */
+  height: 200px !important;
+  width: 120px !important;
+  margin-bottom: 20px !important;
+}
+.testimonialinfo > h4 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.flowerImg {
+  width: 100%;
+  height: 200px;
+  padding-bottom: 70px;
+  margin-bottom: 110px;
+  /* padding-top: 50px; */
+}
+.mailList {
+  width: 100%;
+  height: fit-content;
+  padding: 100px;
+  margin-top: -42px;
+  background-color: rgb(142, 192, 56);
+}
+.emailBox {
+  width: 500px;
+  height: 60px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.emailInput {
+  height: 109%;
+  width: 55%;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  margin-right: -50px;
+}
+.subscribeBttn {
+  width: 45%;
+  height: 105%;
+  border-radius: 30px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+}
+.subscribeBttn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background: #da2424;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.subscribeBttn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(32, 32, 32);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.subscribeBttn:hover,
+.subscribeBttn:focus,
+.subscribeBttn:active {
+  color: white;
+  background-color: #da2424;
+}
+.subscribeBttn:hover:before,
+.subscribeBttn:focus:before,
+.subscribeBttn:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.subscribeBttn:hover:after {
+  background: #da2424;
+}
+.recentArticleDiv {
+  width: 80%;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.recentArticleDiv > div {
+  width: 31%;
+  height: 100%;
+  background-color: rgb(243, 245, 237);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-radius: 20px;
+  /* border: 1px solid red; */
+}
+.recentImg1 img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.recentImg1 {
+  overflow: hidden;
+}
+.recentImg1 img {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.recentImg1 img:hover,
+.recentImg1 img:focus,
+.recentImg1 img:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
+.img1Box {
+  overflow: hidden;
+}
+
+.recentImg2 img {
+  width: 100%;
+}
+.recentImg3 img {
+  width: 100%;
+}
+.recentBttn {
+  font-size: 16px;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(142, 192, 56);
+  color: white;
+  margin-top: -20px;
+  margin-left: -66px;
+  position: absolute;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.recentBttn:hover {
+  border: 2px solid rgb(142, 192, 56);
+  background-color: white;
+  color: rgb(142, 192, 56);
+  cursor: pointer;
+}
+.recentArticleDiv h1 {
+  width: 90%;
+  margin-left: 20px;
+  text-align: center;
+  color: #292d35;
+}
+.recentArticleDiv h1:hover {
+  color: rgb(142, 192, 56);
+}
+.recentArticleDiv p {
+  width: 90%;
+  margin-left: 20px;
+  text-align: center;
+  color: #292d35;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+}
+.recentArticleDiv hr {
+  margin-top: 50px;
+}
+.homepageparagraph {
+  font-size: 40px;
+  font-family: "Sacramento", serif;
+  padding-top: 100px;
+  margin-bottom: -10px;
+  color: rgb(142, 192, 56);
+}
+.h1Tag {
+  font-size: "Fira Sans", serif;
+  font-size: 50px;
+  color: #292d35;
+}
+.homepageh1Tag {
+  font-family: "Fira Sans", serif;
+  font-size: 50px;
+  color: #292d35;
+  font-weight: bold;
+}
+.next {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 30%;
+  border: none;
+  background-color: #f3f5ed;
+}
+.prev {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: -36%;
+  border: none;
+  background-color: #f3f5ed;
+}
+.details {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.details i {
+  margin: -10px -60px 0 50px;
+  color: rgb(142, 192, 56);
+  font-size: 18px;
+}
+.details p {
+  color: #292d35;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.pFonts {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #292d35;
+  line-height: 30px;
+}
+.h1TagFonts {
+  font-family: "Fira Sans", serif;
+}
+.SliderBox {
+  width: 80%;
+  height: 350px;
+  /* border: 1px solid black; */
+  font-family: "Open Sans", sans-serif;
+  color: #292d35;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SliderBox img {
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+  margin: auto;
+}
+.SliderBox p {
+  width: 70%;
+  margin: auto;
+  line-height: 30px;
+  text-align: center;
+}
+
+.prevBox {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.prevBox i {
+  font-size: 20px;
+
+  margin-top: 25px;
+}
+.wavebottom {
+  background-image: url(http://www.w3.org/2000/svg);
+}

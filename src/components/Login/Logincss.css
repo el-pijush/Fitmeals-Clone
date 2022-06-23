@@ -1,0 +1,173 @@
+.logincontainer {
+  width: 600px;
+  height: fit-content;
+  padding: 50px;
+  border: 3px solid rgb(27, 27, 27);
+  margin: 2em 0;
+  text-align: left;
+  border-radius: 25px;
+  margin-left: 500px;
+  margin-top: 90px;
+}
+#name {
+  width: 70%;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 22px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  background-clip: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-main), sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#email {
+  width: 70%;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 22px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  background-clip: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-main), sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#pass {
+  width: 70%;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 22px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  background-clip: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-main), sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#button2 {
+  padding: 7px 30px;
+  line-height: 1.6em;
+  min-width: 125px;
+  border-radius: 36px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  margin-left: 0px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+#button2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background: #da2424;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#button2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #8ec038;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#button2:hover,
+#button2:focus,
+#button2:active {
+  color: white;
+  background-color: #da2424;
+}
+#button2:hover:before,
+#button2:focus:before,
+#button2:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+#button2:hover:after {
+  background: #da2424;
+}
+.login {
+  margin-left: 450px;
+}
+#login_head {
+  margin-left: 30px;
+}
+.reg-tag {
+  text-decoration: none;
+  color: rgb(41, 45, 53);
+  margin-top: 10px;
+  font-size: 16px;
+}
+.reg-tag:hover {
+  color: #70a21a;
+}
+#loginbackground {
+  width: 100%;
+  margin: auto;
+  height: 350px;
+  position: relative;
+  margin-top: 150px;
+  background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg");
+
+  /* border: 1px solid red; */
+  background-size: cover;
+}
+#account {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+#label {
+  color: rgba(41, 45, 53, 0.7);
+  font-size: large;
+}
+.required {
+  color: red;
+  font-weight: 700;
+  border: 0 !important;
+  text-decoration: none;
+}

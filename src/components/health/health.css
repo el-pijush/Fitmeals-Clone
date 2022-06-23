@@ -1,0 +1,523 @@
+body{
+    margin: 0%;
+    padding: 0%;
+ 
+}
+.sliderCont{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  width: 90%;
+}
+.subsliderCont img{
+  width: 90%;
+}
+
+.nav{
+    display: flex;
+    /* grid-template-columns: repeat(2,1fr); */
+    width: 100%;
+    height: 90px;
+    /* top: 20px; */
+    /* background-color: rgb(2, 8, 8); */
+    position: fixed;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.logo{
+    padding-left: 25px;
+}
+.others{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 20%;
+    /* background-color: #7e38c0; */
+    margin-top: 25px;
+    
+
+}
+.image{
+  margin-top: 100px;
+    width: 100%;
+    height: 680px;
+    /* background-color: rgb(95, 61, 20); */
+    background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+    background-size: 100% 100%;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/Creative-1-1920x1280px.jpg");
+        background-size: 100% 100%;
+    }
+    35%{
+        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/businesswoman-2817567_1920.jpg");
+        background-size: 100% 100%;
+    }
+    75%{
+        background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+    }
+
+}
+.features{
+   
+    width: 100%;
+    height:200px;
+    display: grid;
+    background-color: #8ec038;
+    grid-template-columns: repeat(6,1fr);
+   
+    border-color: aliceblue;
+    /* align-items: center; */
+    /* //align-self: center; */
+}
+.features>div{
+margin-top: 30px;
+  margin: auto;
+}
+.features>div>p{
+  font-family:sans-serif;
+  font-weight: bold;
+}
+div>i~p{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.main{
+background-color: #eeeeee;
+width: 100%;
+  height: 400px;
+
+}
+.appointment{
+  width: 100%;
+  height: 400px;
+  border-color: aqua;
+   background-color: #eeeeee;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.appointment>div{
+margin-top: 30px;
+}
+.contentimg>img{
+border-radius: 20px;
+}
+.content>p:nth-child(1){
+  font-size: 30px;
+  font-weight: bold;
+}
+.content>p{
+  font-size: 20px;
+  font-family: sans-serif;
+  /* padding: 10px; */
+  margin-left: 30px;
+  
+}
+.time{
+  display: flex;
+  align-items: center;
+
+
+
+}
+.clock{
+  padding-bottom: 30px;
+}
+.call{
+  font-size: 20px;
+margin-left: 25px;
+font-weight: bold;
+font-family: sans-serif;
+
+}
+
+/* qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq */
+
+*{
+  font-family: sans-serif;
+}
+#container{
+  /* border: 2px solid red; */
+  /* padding: 30px; */
+  height: 700px;
+  width: 78%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 120px;
+}
+#container > h6, #container2 > h6{
+  font-family: 'Satisfy', cursive;
+  font-weight: 100;
+  font-size: 40px;
+  margin: auto;
+  color: #98c64a;
+}
+h2,h6{
+  text-align: center;
+}
+#list_of_times{
+  display: flex;
+  /* border: 2px solid blue; */
+  height: 580px;
+}
+#list_of_times > div{
+  /* border: 3px solid green; */
+  /* padding: 20px; */
+  padding-left: 20px;
+
+  width: 100%;
+
+}
+
+.food_image{
+  border-radius: 50%;
+  margin: auto;
+
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  
+
+
+  /* border: 2px solid red; */
+  /* padding-left: 55px; */
+}
+.description{
+  /* border: 3px solid black; */
+  text-align: center;
+  width: 80%;
+  height: 280px;
+  margin: auto;
+  line-height: 2.2;
+  /* height: 100px; */
+}
+
+.description a{
+  /* border: 2px solid black; */
+  padding: 8px 25px;
+  width: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #da2424;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.description p{
+  color: #645852;
+  /* font-size: 15px; */
+}
+
+h6 + h2{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+.header{
+  font-weight: 700;
+  /* font-size: 20px; */
+}
+/* **********************************CONTAINER2 CSS**************** */
+#container2{
+  background-color: #f3f5ed;
+  /* border: 2px solid blue; */
+  height: 400px;
+ width: 100%;
+ padding-top: 60px;
+}
+
+#container2_parent{
+  display: flex;
+  margin-top: 30px;
+}
+
+#container2_parent > div{
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 400px;
+  text-align: center;          
+}
+
+.icon{
+   font-size: 70px;
+  color: white;
+  /* border: 2px solid red; */
+  padding: 30px 38px;
+  border-radius: 50%; 
+  background-color: #98c64a;
+  
+}
+
+.icon2{
+  padding: 30px 26px;
+}
+h3 + p{
+  line-height: 2;
+  font-size: 15px;
+  /* width: 85%; */
+}
+
+hr{
+  height: 100px;
+  color: #f3f5ed;
+}
+
+/* ***************************CONTAINER 3*************************** */
+#container3{
+  /* border: 2px solid black; */
+  height: 250px;
+ width: 100%;
+ display: flex;
+ background-color: #292d35;
+ margin-bottom: 200px;
+}
+
+#container3 > div{
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid green;  */
+  text-align: center; 
+  line-height: 0.1;
+}
+
+#container3 > div p:first-child{
+  color: #98c64a;
+  font-size: 80px;
+  font-weight: bolder;                   
+}
+
+#container3 > div p:last-child{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#container3 hr{
+  margin-top: 70px;
+}
+
+#container4{
+  display: flex;
+  /* border: 2px solid blue; */
+  height: 750px;
+}
+
+#container4 > div > img:first-child{
+  height: 750px;
+  /* width: 600px; */
+  border-radius: 20px;
+  margin-left: 150px;
+}
+
+/* ************************************************************* */
+.app{
+  /* border: 2px solid blue; */
+  text-align: center;
+  margin: 60px auto;
+}  
+
+p + a:hover{
+  background-color: #98c64a;
+}
+
+#container1{
+  margin-top:50px;
+  display: flex;
+  background-color: #282834;
+  height: 500px;
+  justify-content:space-around;
+  font-family: "Fira Sans",serif; 
+}
+
+#container1>div{
+  margin-top: 70px;
+  width: 200px;
+  justify-content: center; 
+}
+
+#desc{
+  color:white;
+  cursor: pointer;
+  width: 120px;
+}
+#dispicon{
+  color: #8ec038;
+  cursor: pointer;
+  font-size:12px;
+}
+#dispicon1{
+  font-size:10px;
+}
+#dispicon1:hover{
+  color: #8ec038;
+}
+
+#text{
+  color: #ffffffa6;
+  font-family: 'Open sans',sans-serif;
+  font-size:14px;
+  margin-top:30px;
+  margin-bottom: 40px;
+  text-align:left;
+}
+#imgtrio{
+  
+  width: 150px;
+  display: flex;
+  justify-content:space-around;
+}
+#imgtrio > i{
+  font-size:25px;
+  color:#8ec038;
+  
+}
+
+#footlogo{
+  width: 150px;
+  height:76px;
+}
+
+#contact{
+  color:white;
+}
+
+#log{
+  color:#8ec038;
+}
+
+#foot > h5{
+  font-size:12px;
+  color:white;
+  margin-top:6px;
+  padding-left: 20px;
+}
+
+#expl{
+  color:#8ec038;
+}
+.green{
+  color:#8ec038;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav{
+  display: flex;
+  /* grid-template-columns: repeat(2,1fr); */
+  width: 100%;
+  height: 90px;
+  /* top: 20px; */
+  /* background-color: rgb(2, 8, 8); */
+  position: fixed;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.logo{
+  padding-left: 25px;
+}
+.others{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 20%;
+  /* background-color: #7e38c0; */
+  margin-top: 25px;
+  
+
+}
+.image{
+  width: 100%;
+  height: 680px;
+  /* background-color: rgb(95, 61, 20); */
+  background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+  background-size: 100% 100%;
+  animation: slider 10s infinite linear;
+}
+@keyframes slider{
+  0%{
+      background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/Creative-1-1920x1280px.jpg");
+      background-size: 100% 100%;
+  }
+  35%{
+      background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/businesswoman-2817567_1920.jpg");
+      background-size: 100% 100%;
+  }
+  75%{
+      background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+  }
+
+}
+.features{
+ 
+  width: 100%;
+  height:200px;
+  display: grid;
+  background-color: #8ec038;
+  grid-template-columns: repeat(6,1fr);
+ 
+  border-color: aliceblue;
+  /* align-items: center; */
+  /* //align-self: center; */
+}
+.features>div{
+margin-top: 30px;
+margin: auto;
+}
+.features>div>p{
+font-family:sans-serif;
+font-weight: bold;
+}
+div>i~p{
+font-family: sans-serif;
+font-size: 20px;
+}
+
+.main{
+background-color: #eeeeee;
+width: 100%;
+height: 400px;
+
+}
+.appointment{
+width: 100%;
+height: 400px;
+border-color: aqua;
+ background-color: #eeeeee;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.appointment>div{
+margin-top: 30px;
+}
+.contentimg>img{
+border-radius: 20px;
+}
+.content>p:nth-child(1){
+font-size: 30px;
+font-weight: bold;
+}
+.content>p{
+font-size: 20px;
+font-family: sans-serif;
+/* padding: 10px; */
+margin-left: 30px;
+
+}
+.time{
+display: flex;
+
+}
+.call{
+font-size: 20px;
+margin-left: 25px;
+font-weight: bold;
+font-family: sans-serif;
+
+}
+

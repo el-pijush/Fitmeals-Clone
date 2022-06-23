@@ -1,0 +1,261 @@
+/* .App {
+  text-align: center;
+} */
+
+/* Navbar CSS  */
+
+.fullnavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: white;
+  font-family: "Fira Sans", sans-serif;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.navbar_head {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgb(177, 171, 171);
+  background-color: white;
+}
+
+.navbarleftDiv {
+  display: flex;
+  width: 70%;
+  padding-left: 10%;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.navbarleftDiv div {
+  margin: 0px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 250px;
+  padding-bottom: 20px;
+}
+.navbarleftDiv > div > i {
+  color: #69b126;
+  margin-right: 10px;
+}
+.navbarrightDiv {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10%;
+}
+.navbarrightDiv div {
+  margin: 10px;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.navbarrightDiv div i {
+  color: #69b126;
+  size: icon-large;
+  height: 30px;
+  width: 30px;
+  /* border: 1px solid black; */
+}
+
+.navbar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 87px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* .nav_first {
+  width: 15%;
+} */
+
+.nav_first img {
+  height: 60px;
+  /* margin: 20px; */
+  cursor: pointer;
+}
+.nav_sec {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  /* margin-left: 300px;
+  margin-top: 20px; */
+  /* width: 70%; */
+  margin-left: 0px;
+}
+.nav_sec div {
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
+}
+.nav_third {
+  height: 50px;
+  /* margin: 20px; */
+  /* width: 15%; */
+  border-radius: 25px;
+  background-color: rgb(223, 13, 13);
+  color: white;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 15px;
+  margin-left: 0px;
+  cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.nav_third:hover {
+  background-color: #8ae237;
+}
+.div_hover:hover {
+  color: #8ae237;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* z-index: 0; */
+  border-radius: 10px;
+  /* margin: 10px; */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #8ae237;
+}
+.dropdown-content a {
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+  border-radius: 8px;
+}
+.dropdown-content a:hover {
+  background-color: #8ae237;
+}
+
+/* Slider Bar CSS */
+
+.homeslider1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.2);
+  /* object-fit: cover; */
+}
+.sliderimage {
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  animation: sliderZoomEffect 8s linear infinite;
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  color: rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+@keyframes sliderZoomEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 4rem;
+  color: black;
+  cursor: pointer;
+  z-index: 10;
+  user-select: none;
+}
+.right-arrow:hover {
+  color: black;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 4rem;
+  color: black;
+  cursor: pointer;
+  z-index: 10;
+  user-select: none;
+}
+.left-arrow:hover {
+  color: black;
+}
+.homeslide1 {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.homeslide1.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.tagMe {
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  color: white;
+  font-size: 500%;
+  font-weight: bolder;
+}
+.homewrapper {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  height: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.paraMe {
+  position: absolute;
+  bottom: 40%;
+  left: 25%;
+  color: white;
+  font-size: 200%;
+}

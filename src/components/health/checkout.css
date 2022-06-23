@@ -1,0 +1,178 @@
+/* .page-header {
+  background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--black);
+  height: 400px;
+  margin: 0;
+  background-color: #292d35;
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 50% 0px;
+  background-size: cover;
+  border: 0 none;
+  opacity: 50%;
+  filter: brightness(0.8);
+  filter: drop-shadow(16px 16px 20px black);      
+  filter: contrast(90%);
+}
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding: 150px 15px;
+  position: relative;
+  z-index: 2;
+} */
+/* h1 {
+  font-size: 54px;
+  font-weight: 800;
+  color: #fff;
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  margin: 0;
+} */
+#inner-container-checkout {
+  /* border: 2px solid red; */
+  width: 70%;
+  margin: auto;
+  margin-top: 120px;
+}
+#inner-container-checkout > div {
+  /* border: 2px solid blue; */
+  margin-bottom: 40px;
+}
+.box {
+  background-color: #f7f6f7;
+  padding: 20px;
+  font-size: 17px;
+  color: #383d46;
+  border-radius: 30px;
+}
+a {
+  text-decoration: none;
+  color: #383d46;
+}
+a:hover {
+  color: #91c23e;
+}
+/* p {
+  font-size: 40px;
+  font-weight: 900;
+} */
+/* input{
+            border-radius: 30px;
+            padding: 18px;
+            border: 1px solid grey;
+        } */
+sup {
+  color: red;
+}
+#checkout_form {
+  /* display: flex; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* border: 1px solid black; */
+  width: 70%;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inner {
+  margin-right: 15px;
+}
+select {
+  padding: 18px;
+  border-radius: 30px;
+  color: #383d46;
+  width: 15%;
+  /* text-align: center; */
+  font-size: 17px;
+}
+option {
+  font-weight: 200;
+  text-align: left;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+  /* margin-bottom: 30px; */
+}
+#myForm > div {
+  margin-bottom: 30px;
+}
+#container1 {
+  margin-top: 50px;
+  display: flex;
+  background-color: #282834;
+  height: 500px;
+  justify-content: space-around;
+  font-family: "Fira Sans", serif;
+}
+.Chkbtn {
+  width: 285px;
+  height: 57px;
+  background-color: #da2424;
+  border-radius: 30px;
+  border: 0px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+  /* margin-left: 73%; */
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+}
+.Chkbtn:hover {
+  background-color: #8ec038;
+  transition: all 0.5s ease;
+}
+
+#container1 > div {
+  margin-top: 70px;
+  width: 200px;
+  justify-content: center;
+}
+
+#desc {
+  color: white;
+  cursor: pointer;
+  width: 120px;
+}
+#dispicon {
+  color: #8ec038;
+  cursor: pointer;
+  font-size: 12px;
+}
+#dispicon1 {
+  font-size: 10px;
+}
+#dispicon1:hover {
+  color: #8ec038;
+}
+
+#text {
+  color: #ffffffa6;
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+#imgtrio {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+#imgtrio > i {
+  font-size: 25px;
+  color: #8ec038;
+}
